@@ -6,13 +6,15 @@ body {
 }
 
 .container {
+    height: 100vh;
     display: flex;
 }
 
 .bg-image {
     position: relative;
-    width: 30%;
-    max-width: 100%;
+    flex: 1; 
+    display: flex;
+
 }
 
 .img-credits {
